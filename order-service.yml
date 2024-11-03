@@ -6,16 +6,16 @@ order:
 server:
   port: 8083
 
-spring:
-  datasource:
-    username: postgres
-    url: jdbc:postgresql://localhost:5433/order
-    password: 172002
-  jpa:
-    hibernate:
-      ddl-auto: update
-    properties:
-      hibernate:
-        dialect: org.hibernate.dialect.PostgreSQLDialect
-        format_sql: true
-    show-sql: true
+#spring:
+#  datasource:
+#    username: postgres
+#    url: jdbc:postgresql://localhost:5433/order
+#    password: 172002
+#  jpa:
+#    hibernate:
+#      ddl-auto: update
+#    properties:
+#      hibernate:
+#        dialect: org.hibernate.dialect.PostgreSQLDialect
+#        format_sql: true
+#    show-sql: true
